@@ -81,12 +81,8 @@ WSGI_APPLICATION = 'Pygoto_Blog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Pygoto_Blog_DB',
-        'USER': 'root',
-        'PASSWORD': '@Zenindbsv3958',
-        'HOST': '34.143.130.253',
-        'PORT': '3306'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3'
     }
 }
 
